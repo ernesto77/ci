@@ -24,7 +24,9 @@ if (!isset($_SERVER['REMOTE_ADDR'])) {
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
+
 	$root = dirname(__FILE__);
+
     switch ($root) {
 	    case 'D:\OpenServer\domains\ci\public_html':
 	        $env = 'development';
